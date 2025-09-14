@@ -35,8 +35,7 @@ export const Header = ({
             {navigation.map((item) => (
               <a
                 key={item.label}
-                href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
               >
                 {item.label}
               </a>
