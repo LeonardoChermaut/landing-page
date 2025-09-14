@@ -8,7 +8,7 @@ import {
   Twitter,
   Users,
 } from "lucide-react";
-import type { ILandingPageConfig } from "../interface/interface";
+import type { ILandingPageConfig } from "../interfaces/interfaces";
 
 export const initialLandingPageContentConfig: ILandingPageConfig = {
   branding: {
